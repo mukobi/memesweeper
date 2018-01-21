@@ -23,6 +23,7 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 #include "Graphics.h"
+#include "MemeField.h"
 
 class Game
 {
@@ -43,4 +44,6 @@ private:
 	/********************************/
 	/*  User Variables              */
 	/********************************/
+	MemeField field;
+	static constexpr int nMemes = 20;
 };
